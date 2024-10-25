@@ -18,12 +18,12 @@
 // Compile
 // gcc server.c -o server -L/lib/x86_64-linux-gnu/libcrypt.so -lcrypt -pthread
 
-#define EMPPATH "../Data/employees.txt"
-#define CUSPATH "../Data/customers.txt"
-#define LOANPATH "../Data/loanDetails.txt"
-#define COUNTERPATH "../Data/loanCounter.txt"
-#define HISTORYPATH "../Data/trans_hist.txt"
-#define FEEDPATH "../Data/feedback.txt"
+#define EMPPATH "employees.txt"
+#define CUSPATH "customers.txt"
+#define LOANPATH "loanDetails.txt"
+#define COUNTERPATH "loanCounter.txt"
+#define HISTORYPATH "trans_hist.txt"
+#define FEEDPATH "feedback.txt"
 #define HASHKEY "$6$saltsalt$"
 
 #define MAINMENU "\n===== Login As =====\n1. Customer\n2. Employee\n3. Manager\n4. Admin\n5. Exit\nEnter your choice: "
